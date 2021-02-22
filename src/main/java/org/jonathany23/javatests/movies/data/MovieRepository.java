@@ -6,7 +6,7 @@ import java.util.Collection;
 
 public interface MovieRepository {
 
-    Movie findById(Long id);
+    Movie findById(long id);
     Collection<Movie> findAll();
     void saveOrUpdate(Movie movie);
 
