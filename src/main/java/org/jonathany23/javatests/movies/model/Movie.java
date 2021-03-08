@@ -6,7 +6,7 @@ public class Movie {
 
     private Integer id;
     private String name;
-    private int minutes;
+    private Integer minutes;
     private Genre genre;
     private String director;
 
@@ -38,11 +38,11 @@ public class Movie {
         this.name = name;
     }
 
-    public int getMinutes() {
+    public Integer getMinutes() {
         return minutes;
     }
 
-    public void setMinutes(int minutes) {
+    public void setMinutes(Integer minutes) {
         this.minutes = minutes;
     }
 
